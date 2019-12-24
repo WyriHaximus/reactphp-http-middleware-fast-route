@@ -10,6 +10,11 @@
         "text": "build/infection.log"
     },
     "mutators": {
-        "@default": true
+        "@default": true,
+        "ArrayItemRemoval": {
+            "settings": {
+                "remove": "all"
+            }
+        }
     }
 }
